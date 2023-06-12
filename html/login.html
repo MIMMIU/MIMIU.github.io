@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=IBM+Plex+Sans+KR:wght@100;300&family=Nanum+Gothic&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+
+<body>
+
+    <form action="">
+        <!--시작-->
+        <table id="enroll">
+            <!--아이디-->
+            <tr>
+                <th>아이디<span class="req">*</span></th>
+                <td>
+                    <input type="text" name="userId" id="userId" />
+                </td>
+            </tr>
+
+            <!--비밀번호-->
+            <tr>
+                <th>비밀번호<span class="req">*</span></th>
+                <td>
+                    <input type="password" name="pwd" id="pwd" />
+                </td>
+            </tr>
+            <!--버튼-->
+            <tr>
+                <td colspan="2" class="btn-wrapper">
+                    <input type="submit" id="btn1" value="로그인" />&nbsp;
+                    <!-- <input type="reset" value="초기화" /> -->
+                </td>
+            </tr>
+
+            <!--끝-->
+        </table>
+    </form>
+
+    <script src="../js/login.js">
+
+
+        // document.getElementById("btn1").addEventListener('click', () => {
+
+        //     const userId = document.getElementById("userId"); // 유저 input 받아오기
+        //     const pwd = document.getElementById("pwd"); // 비번 input 받아오기
+        //     const key = localStorage.getItem(userId.value); // userId 의 value값
+
+        //     console.log(key); // ->존재하지 않으면 NULL값이 된다.
+        //     if (!key) { //
+        //         alert("존재하지 않는 아이디입니다.");
+        //         event.preventDefault(); //이벤트의 기본 동작을 취소하는 역할
+        //         return;
+        //     }
+        //     console.log(key);
+        //     console.log(pwd.value);
+        //     if (key !== pwd.value) { /// ->key값이 입력한 value값과 다를떄,,
+        //         alert("일치하지 않는 비밀번호입니다.");
+        //         event.preventDefault();
+        //         return;
+        //     }
+        //     if (key !== null && key == pwd.value) {
+        //         alert("로그인 완료");
+        //         event.preventDefault();
+        //     }
+        // })
+
+
+    </script>
+</body>
+
+</html>

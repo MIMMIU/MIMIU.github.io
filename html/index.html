@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NY main page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=IBM+Plex+Sans+KR:wght@100;300&family=Nanum+Gothic&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../css/index.css">
+
+</head>
+
+<body>
+    <div id='my_div'>
+        <img class="mainimg" id='result' src="../images/CD.png" alt="CD player">
+    </div>
+
+
+
+    <!-------------------------->
+
+    <div class="evt_wrap">
+        <div class="wrapper">
+            <div class="typing-demo">Click on the CD player</div>
+        </div>
+    </div>
+    <!-------------------------->
+
+    <div class="option">
+        <ul>
+            <!-- <<<<<<< HEAD
+            
+            <li  class="pic3"><a href="/NY/html/c03_Hobbypage.html"> <img  class="pic" src ="../images/씨디.png"></a></li>
+            <li  class="pic2"><a href="/NY/html/c04_roadmappage.html" > <img  class="pic" src = "../images/8구.png" > </a></li>
+        </ul> 
+    </div>
+ ---------------------- -->
+
+            <!-- <ul class="menu">
+            <li>
+                <a href="#"><img src="../images/png-transparent-login-computer-icons-password-login-black-symbol-subscription-business-model-removebg-preview.png" alt=""></a>
+                <ul>
+                    <li><a  href="/NY/html/login.html">login</a></li>
+                    <li><a href="/NY/html/signUp.html">signUp</a></li>
+                    <li><a href="/NY/html/signUp.html">signUp</a></li>
+                </ul>
+======= -->
+            <!-- <li class="pic1"><a href="../html/c01_page.html"><img class="pic" src="../images/전설토끼.png"></a> </li>
+            <li class="pic4"><a href="../html/c02_viewmemberpage.html"> <img class="pic" src="../images/물음표살인마.png"></a>
+>>>>>>> 1cc508a5f146da24f4f8049561100c118f0fdd59 -->
+            </li>
+            <li class="pic1"><a href="/NY/html/c01_page.html"><img class="pic" src="../images/전설토끼.png"></a> </li>
+            <li class="pic4"><a href="/NY/html/c02_viewmemberpage.html"> <img class="pic"
+                        src="../images/물음표살인마.png"></a></li>
+            <li class="pic3"><a href="../html/c03_Hobbypage.html"> <img class="pic" src="../images/씨디.png"></a></li>
+            <li class="pic2"><a href="../html/c04_roadmappage.html"> <img class="pic" src="../images/8구.png"> </a></li>
+        </ul>
+    </div>
+    <!-------------------------->
+
+    <ul class="menu">
+        <li>
+            <a href="#"><img
+                    src="../images/png-transparent-login-computer-icons-password-login-black-symbol-subscription-business-model-removebg-preview.png"
+                    alt=""></a>
+            <ul>
+                <li onclick="openlogin()"> login</li>
+                <li onclick="opensignUp()">signUp</li>
+                <li onclick="openview()">view</li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <script>
+
+
+
+
+
+
+
+        //--------------------------------------------------------------------
+        function openlogin() {
+            // 팝업 창을 열기 위한 설정
+            var popupWidth = 400;
+            var popupHeight = 300;
+            var left = (window.innerWidth - popupWidth) / 2;
+            var top = (window.innerHeight - popupHeight) / 2;
+            var popupFeatures = 'width=' + popupWidth + ',height=' + popupHeight + ',left=' + left + ',top=' + top + ',resizable=yes';
+
+            // 팝업 창 열기
+            window.open('../html/login.html', 'logine', popupFeatures);
+        }
+
+        function opensignUp() {
+            // 팝업 창을 열기 위한 설정
+            var popupWidth = 400;
+            var popupHeight = 300;
+            var left = (window.innerWidth - popupWidth) / 2;
+            var top = (window.innerHeight - popupHeight) / 2;
+            var popupFeatures = 'width=' + popupWidth + ',height=' + popupHeight + ',left=' + left + ',top=' + top + ',resizable=yes';
+
+            // 팝업 창 열기
+            window.open('../html/sing.html', 'singup', popupFeatures);
+        }
+
+        function openview() {
+            // 팝업 창을 열기 위한 설정
+            var popupWidth = 400;
+            var popupHeight = 300;
+            var left = (window.innerWidth - popupWidth) / 2;
+            var top = (window.innerHeight - popupHeight) / 2;
+            var popupFeatures = 'width=' + popupWidth + ',height=' + popupHeight + ',left=' + left + ',top=' + top + ',resizable=yes';
+
+            // 팝업 창 열기
+            window.open('../html/view.html', 'view', popupFeatures);
+        }
+    </script>
+
+    <!-------------------------->
+
+
+
+    <script>
+
+
+
+    </script>
+
+</body>
+
+</html>

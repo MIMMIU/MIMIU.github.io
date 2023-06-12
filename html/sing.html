@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>login</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=IBM+Plex+Sans+KR:wght@100;300&family=Nanum+Gothic&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="../css/sing.css">
+
+</head>
+
+<body>
+
+
+    <form action="javascript:alert('회원가입 완료!');" name="memberFrm">
+
+        <!--시작-->
+        <table id="enroll">
+            <!--아이디-->
+            <tr>
+                <th>아이디<span class="req">*</span></th>
+                <td>
+                    <input type="text" name="userId" id="userId" />
+                </td>
+            </tr>
+
+            <!--비밀번호-->
+            <tr>
+                <th>비밀번호<span class="req">*</span></th>
+                <td>
+                    <input type="password" name="pwd" id="pwd" />
+                </td>
+            </tr>
+
+            <!--비밀번호 확인-->
+            <tr>
+                <th>비밀번호확인</th>
+                <td>
+                    <input type="password" id="pwdCheck" />
+                </td>
+            </tr>
+
+            <!--이름-->
+            <tr>
+                <th>이름<span class="req">*</span></th>
+                <td>
+                    <input type="text" name="userName" id="userName" />
+                </td>
+            </tr>
+
+
+
+            <!--이메일-->
+            <tr>
+                <th>이메일<span class="req">*</span></th>
+                <td>
+                    <input type="email" name="email" id="email" />
+                </td>
+            </tr>
+
+            <!--전화번ㅎ-->
+            <tr>
+                <th>전화번호<span class="req">*</span></th>
+                <td>
+                    <!-- input:text[name=tel$]#tel$.phone*3 -->
+                    <input type="text" name="tel1" id="tel1" class="phone" />-
+                    <input type="text" name="tel2" id="tel2" class="phone" />-
+                    <input type="text" name="tel3" id="tel3" class="phone" />
+                </td>
+            </tr>
+
+            <!--버튼-->
+            <tr>
+                <td colspan="2" class="btn-wrapper">
+                    <input type="submit" id="btn1" class="but" value="제출" />&nbsp;
+                    <input type="reset" class="but " value="초기화" />
+                </td>
+            </tr>
+
+            <!--끝-->
+        </table>
+    </form>
+    <script src="../js/sing.js">
+
+
+
+
+
+
+
+//-----------------------------
+    </script>
+</body>
+
+</html>

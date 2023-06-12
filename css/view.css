@@ -1,0 +1,89 @@
+body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    width: 1024px;
+
+}
+
+.option,
+nav,
+aside {
+    float: left;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.option ul li a:hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+
+}
+
+.option ul li a:hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+
+}
+
+
+section {
+    margin-top: 100px;
+    float: right;
+    height: 90px;
+}
+
+
+.option * {
+    display: inline;
+    height: 50px;
+    background-color: rgb(0, 45, 206);
+    border-radius: 10px;
+}
+
+.option li {
+    margin: 80px;
+}
+
+.option li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+}
+
+.option {
+    font-size: 20px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+/**/
+
+body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+
+}
+
+table {
+    border: 3px solid blue;
+    border-spacing: 10px;
+
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: rgb(231, 232, 233);
+
+}
+
+table th {
+    text-align: right;
+}
+
+table td {
+    text-align: center;
+}

@@ -1,0 +1,132 @@
+body {
+    background: rgb(231, 232, 233);
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    width: 1024px;
+
+}
+
+.option,
+nav,
+aside {
+    float: left;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.option ul li a:hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+
+}
+
+.option ul li a:hover {
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+
+}
+
+
+section {
+    margin-top: 100px;
+    float: right;
+    height: 90px;
+}
+
+
+.option * {
+    display: inline;
+    height: 50px;
+    background-color: rgb(0, 45, 206);
+    border-radius: 10px;
+}
+
+.option li {
+    margin: 80px;
+}
+
+.option li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+}
+
+.option {
+    font-size: 20px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+/* .. */
+
+.one {
+    position: relative;
+    font-size: 80px;
+    top: 100px;
+    left: 100px;
+
+}
+
+.prod-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.prod-list li {
+    /*부모요소로 사용될 li태그의 포지션relative*/
+    position: relative;
+    left: 500px;
+    float: left;
+    padding: 0;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 70%;
+}
+
+/*이미지의 크기는 300*240으로 통일함 */
+
+
+.prod-list .img {
+
+    margin: 0;
+    padding: 0;
+    float: left;
+    z-index: 5;
+    width: 200px;
+    height: 300px;
+}
+
+
+.prod-list .caption {
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 36, 143, 0.5);
+    transition: .5s;
+    border-radius: 70%;
+    transform: translateY(-200px);
+    animation: fade-in 4s ease-in-out;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h1 a {
+    color: rgb(0, 0, 124);
+}
